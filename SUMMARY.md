@@ -24,5 +24,6 @@
   * [云原生计算基金会（CNCF）](kubernetes-jia-gou-101/di-san-zhang-kubernetes/yun-yuan-sheng-ji-suan-ji-jin-hui-cncf.md)
   * [CNCF和Kubernetes](kubernetes-jia-gou-101/di-san-zhang-kubernetes/cncf-he-kubernetes.md)
 * [第四章 Kubernetes架构](kubernetes-jia-gou-101/di-si-zhang-kubernetes-jia-gou/README.md)
-  * [Untitled](kubernetes-jia-gou-101/di-si-zhang-kubernetes-jia-gou/untitled.md)
+  * [Kubernetes架构](kubernetes-jia-gou-101/di-si-zhang-kubernetes-jia-gou/untitled.md)
+  * [Master node](kubernetes-jia-gou-101/di-si-zhang-kubernetes-jia-gou/master-node.md)
 
