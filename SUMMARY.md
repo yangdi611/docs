@@ -15,6 +15,4 @@
   * [容器编排](kubernetes-jia-gou-101/di-er-zhang-rong-qi-bian-pai/rong-qi-bian-pai.md)
   * [为什么要进行容器编排](kubernetes-jia-gou-101/di-er-zhang-rong-qi-bian-pai/wei-shen-me-yao-jin-hang-rong-qi-bian-pai.md)
   * [在哪部署容器编排工具](kubernetes-jia-gou-101/di-er-zhang-rong-qi-bian-pai/zai-na-bu-shu-rong-qi-bian-pai-gong-ju.md)
-  * [Untitled](kubernetes-jia-gou-101/di-er-zhang-rong-qi-bian-pai/untitled-1.md)
-  * [Untitled](kubernetes-jia-gou-101/di-er-zhang-rong-qi-bian-pai/untitled.md)
 
