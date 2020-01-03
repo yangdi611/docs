@@ -52,4 +52,9 @@
 * [第六章 minikube 本地的单节点kubernetes集群](kubernetes-jia-gou-101/di-liu-zhang-minikube-ben-di-de-dan-jie-dian-kubernetes-ji-qun/README.md)
   * [安装要求](kubernetes-jia-gou-101/di-liu-zhang-minikube-ben-di-de-dan-jie-dian-kubernetes-ji-qun/an-zhuang-yao-qiu.md)
   * [在linux上安装minikube](kubernetes-jia-gou-101/di-liu-zhang-minikube-ben-di-de-dan-jie-dian-kubernetes-ji-qun/zai-linux-shang-an-zhuang-minikube.md)
+  * [在macOS上安装minikube](kubernetes-jia-gou-101/di-liu-zhang-minikube-ben-di-de-dan-jie-dian-kubernetes-ji-qun/zai-macos-shang-an-zhuang-minikube.md)
+  * [在windows中安装minikube](kubernetes-jia-gou-101/di-liu-zhang-minikube-ben-di-de-dan-jie-dian-kubernetes-ji-qun/zai-windows-zhong-an-zhuang-minikube.md)
+  * [Untitled](kubernetes-jia-gou-101/di-liu-zhang-minikube-ben-di-de-dan-jie-dian-kubernetes-ji-qun/untitled-3.md)
+  * [Untitled](kubernetes-jia-gou-101/di-liu-zhang-minikube-ben-di-de-dan-jie-dian-kubernetes-ji-qun/untitled-4.md)
+  * [Untitled](kubernetes-jia-gou-101/di-liu-zhang-minikube-ben-di-de-dan-jie-dian-kubernetes-ji-qun/untitled-1.md)
 
