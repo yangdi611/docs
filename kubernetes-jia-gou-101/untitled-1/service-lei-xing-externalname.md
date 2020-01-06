@@ -1,0 +1,6 @@
+# Service类型：ExternalName
+
+ExternalName是一种特殊的ServiceType，它没有选择器，也没有定义任何终结点。在群集内访问时，它将返回外部配置的服务的CNAME记录。
+
+此ServiceType的主要用例是使群集内部的应用程序可以使用外部配置的服务，例如my-database.example.com。如果外部定义的服务位于同一命名空间中，则仅使用名称my-database即可使其对同一命名空间中的其他应用程序和服务可用。
+
