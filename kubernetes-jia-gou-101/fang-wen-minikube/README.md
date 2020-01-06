@@ -1,4 +1,4 @@
-# 访问Minikube
+# 第七章 访问Minikube
 
 可以通过以下任何一种方法来访问任何运行良好的Kubernetes集群：
 
