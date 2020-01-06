@@ -4,13 +4,13 @@
 
   使用dockershim，可以使用安装在工作程序节点上的Docker创建容器。在内部，Docker使用容器来创建和管理容器。
 
-![dockershim](../../../../.gitbook/assets/image%20%287%29.png)
+![dockershim](../../../../.gitbook/assets/image%20%288%29.png)
 
 * cri-containerd
 
   使用cri-containerd，我们可以直接使用Docker的较小后代containerd来创建和管理容器。
 
-![cri-containerd](../../../../.gitbook/assets/image%20%288%29.png)
+![cri-containerd](../../../../.gitbook/assets/image%20%289%29.png)
 
 * CRI-O
 
