@@ -91,7 +91,6 @@
   * [Authorization III](kubernetes-jia-gou-101/di-jiu-zhang-ren-zheng-shou-quan-he-zhun-ru-kong-zhi/untitled-5.md)
   * [Admission Control](kubernetes-jia-gou-101/di-jiu-zhang-ren-zheng-shou-quan-he-zhun-ru-kong-zhi/untitled-4.md)
   * [身份验证和授权练习指南](kubernetes-jia-gou-101/di-jiu-zhang-ren-zheng-shou-quan-he-zhun-ru-kong-zhi/untitled-3.md)
-  * [Untitled](kubernetes-jia-gou-101/di-jiu-zhang-ren-zheng-shou-quan-he-zhun-ru-kong-zhi/untitled-1.md)
   * [Untitled](kubernetes-jia-gou-101/di-jiu-zhang-ren-zheng-shou-quan-he-zhun-ru-kong-zhi/untitled.md)
 * [Untitled](kubernetes-jia-gou-101/untitled-1.md)
 
