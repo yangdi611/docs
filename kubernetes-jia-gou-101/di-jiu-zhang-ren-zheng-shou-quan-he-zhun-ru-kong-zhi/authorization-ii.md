@@ -23,4 +23,5 @@
 
   要启用ABAC授权者，我们需要使用--authorization-mode = ABAC选项启动API服务器。我们还需要使用--authorization-policy-file = PolicyFile.json指定授权策略。有关更多详细信息，请查看Kubernetes文档。
 
-* 
+*   **`Webhook Authorizer`**
+
