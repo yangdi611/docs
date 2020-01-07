@@ -110,8 +110,8 @@
   * [探索Labels和Selectors 1](kubernetes-jia-gou-101/untitled/tan-suo-labels-he-selectors-1.md)
   * [探索Labels和Selectors 2](kubernetes-jia-gou-101/untitled/tan-suo-labels-he-selectors-2.md)
   * [探索Labels和Selectors 2](kubernetes-jia-gou-101/untitled/tan-suo-labels-he-selectors-2-1.md)
-  * [用CLI部署应用一](kubernetes-jia-gou-101/untitled/yong-cli-bu-shu-ying-yong.md)
-  * [Untitled](kubernetes-jia-gou-101/untitled/untitled-3.md)
+  * [使用CLI部署应用一](kubernetes-jia-gou-101/untitled/yong-cli-bu-shu-ying-yong.md)
+  * [使用CLI部署应用二](kubernetes-jia-gou-101/untitled/untitled-3.md)
   * [Untitled](kubernetes-jia-gou-101/untitled/untitled-1.md)
   * [Untitled](kubernetes-jia-gou-101/untitled/untitled.md)
 
