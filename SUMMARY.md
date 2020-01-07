@@ -115,7 +115,7 @@
   * [暴露应用一](kubernetes-jia-gou-101/untitled/untitled-1.md)
   * [暴露应用二](kubernetes-jia-gou-101/untitled/untitled.md)
   * [访问应用](kubernetes-jia-gou-101/untitled/fang-wen-ying-yong.md)
-  * [活力和准备情况调查](kubernetes-jia-gou-101/untitled/untitled-5.md)
-  * [Untitled](kubernetes-jia-gou-101/untitled/untitled-4.md)
-  * [Untitled](kubernetes-jia-gou-101/untitled/untitled-2.md)
+  * [活性（Liveness）和就绪（Readiness） 探针](kubernetes-jia-gou-101/untitled/untitled-5.md)
+  * [活性（Liveness）](kubernetes-jia-gou-101/untitled/untitled-4.md)
+  * [活性（Liveness）命令](kubernetes-jia-gou-101/untitled/untitled-2.md)
 
