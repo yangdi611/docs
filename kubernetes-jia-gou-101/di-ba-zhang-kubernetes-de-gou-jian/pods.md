@@ -6,7 +6,7 @@
 * 共享相同的网络名称空间
 * 有权装载（mount）相同的外部存储（卷 Volume）。
 
-![Pods](../../.gitbook/assets/image%20%2833%29.png)
+![Pods](../../.gitbook/assets/image%20%2836%29.png)
 
 Pods本质上是短暂的，它们没有自我修复的能力。这就是它们与处理Pod的复制、容错、自我修复等功能的控制器一起使用的原因。控制器的示例包括Deployment，ReplicaSets，ReplicationControllers等。我们使用Pod模板将嵌套的Pod规范附加到控制器对象上。就像我们在上一节中看到的那样。
 

@@ -2,7 +2,7 @@
 
 Cloud Native Computing Foundation（CNCF）是Linux Foundation托管的项目之一。CNCF旨在加速采用容器，微服务和云原生应用程序。
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 CNCF主持了许多项目，将来还会增加更多项目。CNCF为每个项目提供资源，但是同时，每个项目在其原有的治理结构下以及与现有的维护者一起继续独立运作。CNCF中的项目根据达到的状态进行分类：沙箱，孵化和已毕业。在创建此课程时，有六个项目具有毕业状态，还有更多项目仍在“孵化中”和“沙箱”中。
 

@@ -4,5 +4,5 @@
 
 在以下示例中，新的Deployment创建了ReplicaSet A，然后创建了3个Pod，每个Pod模板配置为运行一个nginx：1.7.9容器映像。在这种情况下，副本集A与nginx：1.7.9关联，表示部署的状态。此特定状态记录为修订版1。
 
-![Deployment \(ReplicaSet A Created\)](../../.gitbook/assets/image%20%2819%29.png)
+![Deployment \(ReplicaSet A Created\)](../../.gitbook/assets/image%20%2821%29.png)
 

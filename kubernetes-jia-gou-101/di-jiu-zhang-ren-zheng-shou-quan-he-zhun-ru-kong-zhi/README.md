@@ -8,5 +8,5 @@
 
 下图描述了以上阶段：（[Kubernetes.io](https://kubernetes.io/docs/admin/accessing-the-api/)）
 
-![Accessing the API](../../.gitbook/assets/image%20%2829%29.png)
+![Accessing the API](../../.gitbook/assets/image%20%2832%29.png)
 
