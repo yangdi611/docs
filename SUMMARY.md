@@ -115,7 +115,7 @@
   * [暴露应用一](kubernetes-jia-gou-101/untitled/untitled-1.md)
   * [暴露应用二](kubernetes-jia-gou-101/untitled/untitled.md)
   * [访问应用](kubernetes-jia-gou-101/untitled/fang-wen-ying-yong.md)
-  * [Untitled](kubernetes-jia-gou-101/untitled/untitled-5.md)
+  * [活力和准备情况调查](kubernetes-jia-gou-101/untitled/untitled-5.md)
   * [Untitled](kubernetes-jia-gou-101/untitled/untitled-4.md)
   * [Untitled](kubernetes-jia-gou-101/untitled/untitled-2.md)
 
