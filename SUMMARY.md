@@ -118,4 +118,7 @@
   * [活性（Liveness）和就绪（Readiness） 探针](kubernetes-jia-gou-101/untitled/untitled-5.md)
   * [活性（Liveness）](kubernetes-jia-gou-101/untitled/untitled-4.md)
   * [活性（Liveness）命令](kubernetes-jia-gou-101/untitled/untitled-2.md)
+  * [HTTP活性请求](kubernetes-jia-gou-101/untitled/http-huo-xing-qing-qiu.md)
+  * [TCP 活性探针](kubernetes-jia-gou-101/untitled/tcp-huo-xing-tan-zhen.md)
+  * [就绪探针](kubernetes-jia-gou-101/untitled/jiu-xu-tan-zhen.md)
 
