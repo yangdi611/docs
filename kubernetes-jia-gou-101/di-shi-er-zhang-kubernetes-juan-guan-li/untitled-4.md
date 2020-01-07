@@ -7,11 +7,13 @@
 * **gcePersistentDisk** 使用gcePersistentDisk卷类型，我们可以将[Google Compute Engine（GCE）](https://cloud.google.com/compute/docs/disks/)永久磁盘安装到Pod中。
 * **awsElasticBlockStore** 使用awsElasticBlockStore卷类型，我们可以将[AWS EBS卷](https://aws.amazon.com/ebs/)安装到Pod中。
 * **azureDisk** 使用azureDisk，我们可以将[Microsoft Azure Data Disk](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/managed-disks-overview)安装到Pod中。
-* **azureFile** With **azureFile** we can mount a [Microsoft Azure File Volume](https://github.com/kubernetes/examples/blob/master/staging/volumes/azure_file/README.md) into a Pod.
-* **cephfs** With **cephfs**, an existing CephFS volume can be mounted into a Pod. When a Pod terminates, the volume is unmounted and the contents of the volume are preserved.
-* **nfs** With [nfs](https://en.wikipedia.org/wiki/Network_File_System), we can mount an NFS share into a Pod.
-* **iscsi** With [iscsi](https://en.wikipedia.org/wiki/ISCSI), we can mount an iSCSI share into a Pod.
-* **secret** With the **secret** Volume Type, we can pass sensitive information, such as passwords, to Pods. We will take a look at an example in a later chapter.
-* **configMap** With **configMap** objects, we can provide configuration data, or shell commands and arguments into a Pod.
-* **persistentVolumeClaim** We can attach a [PersistentVolume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) to a Pod using a **persistentVolumeClaim**. We will cover this in our next section. 
+* **azureFile** 使用azureFile，我们可以将[Microsoft Azure File Volume](https://github.com/kubernetes/examples/blob/master/staging/volumes/azure_file/README.md)安装到Pod中。
+* **cephfs** 使用cephfs，可以将现有的CephFS卷挂载到Pod中。当Pod终止时，将卸载该卷并保留该卷的内容。
+* **nfs** 使用[nfs](https://en.wikipedia.org/wiki/Network_File_System)，我们可以将NFS共享安装到Pod中。
+* **iscsi** 使用[iscsi](https://en.wikipedia.org/wiki/ISCSI)，我们可以将iSCSI共享安装到Pod中。
+* **secret** 使用secret的卷类型，我们可以将敏感信息（例如密码）传递给Pods。我们将在下一章中看一个例子。
+* **configMap** 使用configMap对象，我们可以将配置数据或shell命令和参数提供到Pod中。
+* **persistentVolumeClaim** 我们可以使用persistentVolumeClaim将[PersistentVolume](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)附加到Pod。我们将在下一部分中对此进行介绍。
+
+您可以在[Kubernetes文档](https://kubernetes.io/docs/concepts/storage/volumes/)中了解有关卷类型的更多详细信息。
 
