@@ -6,5 +6,5 @@
 
 滚动更新完成后，部署将显示副本集A和B，其中A缩放到0（零）个Pod，B缩放到3个Pod。这就是部署将其先前状态配置设置记录为修订的方式。
 
-![Deployment \(ReplicaSet B Created\)](../../.gitbook/assets/image%20%2830%29.png)
+![Deployment \(ReplicaSet B Created\)](../../.gitbook/assets/image%20%2831%29.png)
 

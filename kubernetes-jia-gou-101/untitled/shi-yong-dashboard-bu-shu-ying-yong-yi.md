@@ -30,7 +30,7 @@ $ minikube dashboard
 
 运行此命令将打开带有Kubernetes Web UI的浏览器，我们可以使用它来管理容器化的应用程序。默认情况下，仪表板连接到默认（default）名称空间。因此，我们将在本章中执行的所有操作将在默认（default）名称空间内执行。
 
-![Deploying an Application - Accessing the Dashboard](../../.gitbook/assets/image%20%288%29.png)
+![Deploying an Application - Accessing the Dashboard](../../.gitbook/assets/image%20%289%29.png)
 
 > 如果浏览器没有打开另一个选项卡并且没有按预期方式显示仪表板，请在终端中验证输出，因为它可能显示仪表板的链接（以及一些错误消息）。将该链接复制并粘贴到浏览器的新标签中。根据终端的功能，您也许可以单击或右键单击链接以直接在浏览器中打开。该链接可能类似​​于：
 >

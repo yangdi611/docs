@@ -112,6 +112,10 @@
   * [探索Labels和Selectors 2](kubernetes-jia-gou-101/untitled/tan-suo-labels-he-selectors-2-1.md)
   * [使用CLI部署应用一](kubernetes-jia-gou-101/untitled/yong-cli-bu-shu-ying-yong.md)
   * [使用CLI部署应用二](kubernetes-jia-gou-101/untitled/untitled-3.md)
-  * [Untitled](kubernetes-jia-gou-101/untitled/untitled-1.md)
-  * [Untitled](kubernetes-jia-gou-101/untitled/untitled.md)
+  * [暴露应用一](kubernetes-jia-gou-101/untitled/untitled-1.md)
+  * [暴露应用二](kubernetes-jia-gou-101/untitled/untitled.md)
+  * [访问应用](kubernetes-jia-gou-101/untitled/fang-wen-ying-yong.md)
+  * [Untitled](kubernetes-jia-gou-101/untitled/untitled-5.md)
+  * [Untitled](kubernetes-jia-gou-101/untitled/untitled-4.md)
+  * [Untitled](kubernetes-jia-gou-101/untitled/untitled-2.md)
 
