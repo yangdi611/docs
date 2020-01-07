@@ -121,4 +121,9 @@
   * [HTTP活性请求](kubernetes-jia-gou-101/untitled/http-huo-xing-qing-qiu.md)
   * [TCP 活性探针](kubernetes-jia-gou-101/untitled/tcp-huo-xing-tan-zhen.md)
   * [就绪探针](kubernetes-jia-gou-101/untitled/jiu-xu-tan-zhen.md)
+* [第十二章 Kubernetes卷管理](kubernetes-jia-gou-101/di-shi-er-zhang-kubernetes-juan-guan-li/README.md)
+  * [卷 Volume](kubernetes-jia-gou-101/di-shi-er-zhang-kubernetes-juan-guan-li/juan-volume.md)
+* [Untitled](kubernetes-jia-gou-101/untitled-4.md)
+* [Untitled](kubernetes-jia-gou-101/untitled-3.md)
+* [Untitled](kubernetes-jia-gou-101/untitled-2.md)
 
