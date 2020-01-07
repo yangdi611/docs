@@ -13,7 +13,7 @@
 * The replica count, or the number of Pods, is 3
 * 没有service，因为我们将在以后创建它。
 
-![Deploy a Containerized Application Web Interface](../../.gitbook/assets/image%20%2840%29.png)
+![Deploy a Containerized Application Web Interface](../../.gitbook/assets/image%20%2841%29.png)
 
 如果我们点击“_Show Advanced Options_” ，我们可以定义一些现象如：Labels、Namespaces、环境变量等。默认情况下，app的Lable就是应用名称。在我们的示例中，k8s-app:webserver标签设置为此部署创建的所有对象：Pod和Services（公开时）。
 

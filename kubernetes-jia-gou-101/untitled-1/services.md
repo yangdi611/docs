@@ -8,7 +8,7 @@
 
 我们为逻辑分组分配一个名称，称为服务。在我们的示例中，我们创建了两个服务frontend-svc和db-svc，它们分别具有app == frontend和app == dbSelectors。
 
-![Grouping of Pods using the Service object](../../.gitbook/assets/image%20%2830%29.png)
+![Grouping of Pods using the Service object](../../.gitbook/assets/image%20%2831%29.png)
 
 服务可以公开单个Pod，ReplicaSet，Deployment，DaemonSet和StatefulSet。
 

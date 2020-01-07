@@ -8,5 +8,5 @@
 
   基于集合的选择器允许基于一组值过滤对象。我们可以对标签值使用in，notin运算符，对Label键使用exist/does not exist运算符。例如，在（dev，qa）中使用env时，我们将选择env Label设置为dev或qa的对象；使用！app，我们选择没有Label key应用的对象。
 
-![Selectors](../../.gitbook/assets/image%20%2839%29.png)
+![Selectors](../../.gitbook/assets/image%20%2840%29.png)
 
