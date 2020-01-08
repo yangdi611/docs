@@ -6,7 +6,7 @@
 
 持久卷卷是群集中网络连接的存储，由管理员提供。
 
-![PersistentVolume](../../.gitbook/assets/image%20%2816%29.png)
+![PersistentVolume](../../.gitbook/assets/image%20%2818%29.png)
 
 可以基于StorageClass资源动态设置PersistentVolumes。StorageClass包含预定义的配置程序和参数以创建PersistentVolume。用户使用PersistentVolumeClaims发送动态创建PV的请求，该请求将连接到StorageClass资源。
 

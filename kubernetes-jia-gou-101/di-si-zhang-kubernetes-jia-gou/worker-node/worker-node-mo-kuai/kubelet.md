@@ -4,7 +4,7 @@ kubelet是在每个节点上运行的代理，并与主节点上的控制平面�
 
 kubelet使用  [**Container Runtime Interface**](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-node/container-runtime-interface.md) **\(CRI\)**连接到容器运行时。CRI由协议缓冲区，gRPC API和库组成。
 
-![container runtime interface](../../../../.gitbook/assets/image%20%2814%29.png)
+![container runtime interface](../../../../.gitbook/assets/image%20%2816%29.png)
 
 如上所示，充当grpc客户端的kubelet连接到充当grpc服务器的CRI垫片以执行容器和镜像操作。CRI实现了两项服务：ImageService和RuntimeService。ImageService负责所有与镜像相关的操作，而RuntimeService负责与Pod和容器相关的所有操作。
 

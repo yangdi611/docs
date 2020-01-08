@@ -15,5 +15,5 @@ Starting to serve on 127.0.0.1:8001
 http://127.0.0.1:8001/api/v1/namespaces/kube-system/services/kubernetes-dashboard:/proxy/#!/overview?namespace=default 
 ```
 
-![Kubernetes Dashboard over the proxy](../../.gitbook/assets/image%20%2810%29.png)
+![Kubernetes Dashboard over the proxy](../../.gitbook/assets/image%20%2812%29.png)
 

@@ -18,7 +18,7 @@ spec:
 
 在此示例中，我们通过选择所有将Label key = app设置为value = frontend的Pod来创建frontend-svc服务。默认情况下，每个服务仅接收在群集内部可路由的IP地址，称为ClusterIP。在我们的示例中，我们分别将172.17.0.4和172.17.0.5作为ClusterIP分配给了我们的frontend-svc和db-svc服务。
 
-![Accessing the Pods using Service Object](../../.gitbook/assets/image%20%282%29.png)
+![Accessing the Pods using Service Object](../../.gitbook/assets/image%20%283%29.png)
 
 现在，用户/客户端通过其ClusterIP连接到服务，该服务将流量转发到与其连接的Pod之一。默认情况下，服务在选择Pod进行流量转发时会提供负载平衡。
 

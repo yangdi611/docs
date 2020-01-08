@@ -49,3 +49,5 @@ $ kubectl create -f mypass.yaml
 secret/my-password created
 ```
 
+
+

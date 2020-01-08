@@ -4,7 +4,7 @@
 
 为了克服这个问题，Kubernetes使用[卷](https://kubernetes.io/docs/concepts/storage/volumes/)。卷本质上是由存储介质支持的目录。存储介质，内容和访问模式由卷类型决定。
 
-![Volumes](../../.gitbook/assets/image%20%2830%29.png)
+![Volumes](../../.gitbook/assets/image%20%2832%29.png)
 
 在Kubernetes中，卷被附加到Pod，并且可以在该Pod的容器之间共享。该卷具有与Pod相同的寿命，并且其寿命超过了Pod的容器-这允许在容器重新启动后保留数据。
 

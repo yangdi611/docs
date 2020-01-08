@@ -8,7 +8,7 @@
 
 出乎意料的是，终止了与用户/客户端连接的Pod，并且控制器创建了新的Pod。新的Pod将具有一个新的IP地址，早期的Pod的用户/客户端将不会自动知道该IP地址。
 
-![A New Pod Is Created After the Old One Terminated Unexpectedly](../../.gitbook/assets/image%20%281%29.png)
+![A New Pod Is Created After the Old One Terminated Unexpectedly](../../.gitbook/assets/image%20%282%29.png)
 
 为了克服这种情况，Kubernetes提供了一个称为Service的更高级别的抽象，该抽象将Pod进行逻辑分组并定义访问它们的策略。通过Label和Selector可以实现此分组。
 

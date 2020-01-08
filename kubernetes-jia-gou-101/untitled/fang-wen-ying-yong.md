@@ -9,7 +9,7 @@ $ minikube ip
 
 现在打开浏览器然后访问 192.168.99.100，端口31074。
 
-![&#x901A;&#x8FC7;&#x6D4F;&#x89C8;&#x5668;&#x8BBF;&#x95EE;&#x5E94;&#x7528;](../../.gitbook/assets/image%20%283%29.png)
+![&#x901A;&#x8FC7;&#x6D4F;&#x89C8;&#x5668;&#x8BBF;&#x95EE;&#x5E94;&#x7528;](../../.gitbook/assets/image%20%284%29.png)
 
 我们还可以运行以下minikube命令，该命令在浏览器中显示该应用程序：
 

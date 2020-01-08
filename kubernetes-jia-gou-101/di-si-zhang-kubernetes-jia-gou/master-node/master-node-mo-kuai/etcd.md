@@ -8,7 +8,7 @@ etcd的CLI管理工具提供了备份，快照和还原功能，这些功能特�
 
 默认情况下，一些Kubernetes集群引导工具会提供堆叠的etcd主节点，其中数据存储与该主节点并排运行并与其他控制面板组件共享资源。为了将数据存储区与控制平面组件隔离，可以为外部etcd配置引导过程，在外部etcd上将数据存储区配置在专用的单独主机上，从而减少了etcd故障的机会。堆叠和外部etcd配置都支持HA配置。etcd基于筏共识算法（Raft Consensus Algorithm），该算法允许一组计算机作为一个连贯的组工作，这些组可以在某些成员的故障中幸免。在任何给定时间，组中的节点之一将成为主节点，其余节点将成为跟随者。任何节点都可以视为主节点。
 
-![Master and folloers](../../../../.gitbook/assets/image%20%288%29.png)
+![Master and folloers](../../../../.gitbook/assets/image%20%289%29.png)
 
 etcd用Go编程语言编写。在Kubernetes中，除了存储集群状态外，etcd还用于存储配置详细信息，例如子网，ConfigMap，Secret等。
 
