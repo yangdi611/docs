@@ -4,7 +4,7 @@
 
 在下面，我们可以看到Kubernetes的HTTP API空间的一部分：
 
-![HTTP API Space of Kubernetes](../../.gitbook/assets/image%20%2818%29.png)
+![HTTP API Space of Kubernetes](../../.gitbook/assets/image%20%2819%29.png)
 
 Kubernetes的HTTP API空间可以分为三个独立的组：
 
