@@ -4,9 +4,9 @@
 
 我们可以为每个命名空间设置以下配额类型：
 
-* **Compute Resource Quota** We can limit the total sum of compute resources \(CPU, memory, etc.\) that can be requested in a given Namespace.
-* **Storage Resource Quota** We can limit the total sum of storage resources \(PersistentVolumeClaims, requests.storage, etc.\) that can be requested.
-* **Object Count Quota** We can restrict the number of objects of a given type \(pods, ConfigMaps, PersistentVolumeClaims, ReplicationControllers, Services, Secrets, etc.\).
+* **计算资源配额** 我们可以限制在给定命名空间中可以请求的计算资源（CPU，内存等）的总和。
+* **存储资源配额** 我们可以限制可以请求的存储资源的总和（PersistentVolumeClaims，requests.storage等）。
+* **对象数量配额** 我们可以限制给定类型（pod，ConfigMap，PersistentVolumeClaims，ReplicationControllers，Services，Secret等）的对象数量。
 
 
 
