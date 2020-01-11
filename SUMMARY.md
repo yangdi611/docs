@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Kubernetes的学习路径](README.md)
 
 ## Kubernetes架构101
 
@@ -156,9 +156,5 @@
   * [Helm](kubernetes-jia-gou-101/untitled-7/helm.md)
   * [安全和Pod安全策略](kubernetes-jia-gou-101/untitled-7/he-pod-an-quan-ce-lve.md)
   * [网络策略](kubernetes-jia-gou-101/untitled-7/untitled-8.md)
-  * [Untitled](kubernetes-jia-gou-101/untitled-7/untitled-9.md)
-  * [Untitled](kubernetes-jia-gou-101/untitled-7/untitled-10.md)
-  * [Untitled](kubernetes-jia-gou-101/untitled-7/untitled-5.md)
-* [Untitled](kubernetes-jia-gou-101/untitled-6.md)
-* [Untitled](kubernetes-jia-gou-101/untitled-4.md)
+  * [监控和记录](kubernetes-jia-gou-101/untitled-7/untitled-9.md)
 
