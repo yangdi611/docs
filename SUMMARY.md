@@ -177,5 +177,6 @@
 * [Grafana](afterk8s/grafana/README.md)
   * [Loki](afterk8s/grafana/loki.md)
 * [Rancher](afterk8s/rancher/README.md)
+  * [Nginx](afterk8s/rancher/untitled.md)
   * [Rancher Air-Gapped installation](afterk8s/rancher/rancher-air-gapped-installation.md)
 
