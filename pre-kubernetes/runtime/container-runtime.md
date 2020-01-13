@@ -160,7 +160,7 @@ drwxr-x---. 2 root root   19 Aug 30 10:42 rootfs
 
 然后我们再来看一下config的内容：
 
-```text
+```yaml
 [root@localhost hello-world-bundle]# cat config.json 
 {
         "ociVersion": "1.0.1-dev",

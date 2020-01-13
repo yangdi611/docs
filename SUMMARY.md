@@ -11,6 +11,8 @@
   * [namespace](pre-kubernetes/namespace/namespace.md)
 * [container runtime](pre-kubernetes/runtime/README.md)
   * [container runtime](pre-kubernetes/runtime/container-runtime.md)
+* [etcd](pre-kubernetes/etcd/README.md)
+  * [Kubernetes 1.16 离线安装 with 外置etcd](pre-kubernetes/etcd/kubernetes-1.16-li-xian-an-zhuang-with-wai-zhi-etcd.md)
 
 ## Kubernetes架构101 <a id="kubernetes101"></a>
 
@@ -167,4 +169,9 @@
   * [安全和Pod安全策略](kubernetes101/untitled-7/he-pod-an-quan-ce-lve.md)
   * [网络策略](kubernetes101/untitled-7/untitled-8.md)
   * [监控和记录](kubernetes101/untitled-7/untitled-9.md)
+
+## AFTERK8S
+
+* [Ingress](afterk8s/ingress/README.md)
+  * [Kong](afterk8s/ingress/kong.md)
 
