@@ -51,16 +51,16 @@
 
 img here
 
-### Kubernets 1.16 集群安装（内网环境/外置etcd）
+## Kubernets 1.16 集群安装（内网环境/外置etcd）
 
-#### 介质准备
+### 介质准备
 
 1. 复制一份yum源到自建的yum源里面去，这里使用ali的yum源： [https://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86\_64/Packages/](https://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64/Packages/)
 2. 下载etcd 二进制文件：[https://github.com/etcd-io/etcd/releases](https://github.com/etcd-io/etcd/releases)
 3. 下载kubernetes的镜像并更改tag后上传至私有镜像库，如Harbor等，参考：[https://github.com/yangdi611/google-containers](https://github.com/yangdi611/google-containers)
 4. 剩下的工具，确保你的源里面有：Docker、Ansible
 
-#### 准备bootstrap节点
+### 准备bootstrap节点
 
 > 官方文档并没有说需要这个节点，这里说说为什么要准备bootstrap节点，因为如果想要安装一个比较纯净的k8s环境和进行一些测试都可以用这个节点来进行，可以是一个同网段的机器也可以是你自己笔记本上面的一个虚机，只要和cluster里面的机器通就可以。
 
@@ -129,7 +129,7 @@ remote_port    = 22
 1. 对bootstrap节点上的ssh进行免登录授权：`ssh-keygen` 一路确认即可，然后将生成的密匙拷贝到其他服务器上：`ssh-copy-id <ip>`
 2. 进行用ansible进行ping测试：`ansible cluster -m ping`来检测通断性。
 
-#### 准备cluster节点
+### 准备cluster节点
 
 > _如下都使用ansible-playbook来进行推送，如无备注都是ansible使用的yml文件，方便环境准备。其实可以写在一个文件中就可以，但是为了对安装所需要的步骤更直观，这里先分开执行。_
 
@@ -374,7 +374,7 @@ remote_port    = 22
       command: modprobe br_netfilter
 ```
 
-#### 安装Etcd cluster（external）
+### 安装Etcd cluster（external）
 
 1. 通过github下载运行文件：
 
@@ -394,7 +394,7 @@ remote_port    = 22
 [Install] WantedBy=multi-user.target
 ```
 
-4. 编辑各个节点的etcd服务
+1. 编辑各个节点的etcd服务
 
 etcd1:
 
@@ -592,7 +592,7 @@ etcdctl \
 
 1. 删除掉没用kubadmcfg.yaml
 
-#### 安装Master节点
+### 安装Master节点
 
 **配置keepalived和ipvs**
 

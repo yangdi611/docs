@@ -1,8 +1,8 @@
 # Docker测试cgroup特性
 
-### Docker测试cgroup特性
+## Docker测试cgroup特性
 
-#### 测试内存
+### 测试内存
 
 1. 首先先用dockerfile建立一个docker image，安装stress压测工具：
 
@@ -105,7 +105,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 
    \`\`\`shell
 
-   Path                                                                                                                               Tasks   %CPU   Memory  Input/s Output/s
+   Path Tasks %CPU Memory Input/s Output/s
 
 / 87 84.1 674.3M - - /system.slice - 81.1 180.7M - - /system.slice/docker-28d34095dfa92c4c2e3564f52508f054b3bb562c53e1205a162e1e1a2862e51b.scope 4 80.8 127.8M - - ...
 
@@ -149,7 +149,7 @@ total_active_file 0
 total_unevictable 0
 ```
 
-#### CPU测试
+### CPU测试
 
 **第一种方式，通过修改cpu共享权重来限制cpu的使用**
 
@@ -157,7 +157,7 @@ total_unevictable 0
 
    \`\`\`shell
 
-   \[root@localhost ~\]\# docker run -itd  --name stress3 -m 128M -c=512 centos/stress
+   \[root@localhost ~\]\# docker run -itd --name stress3 -m 128M -c=512 centos/stress
 
 \[root@localhost ~\]\# docker ps CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES 853359ceee2a centos/stress "/bin/bash" 3 minutes ago Up 3 minutes stress3 28d34095dfa9 centos/stress "/bin/bash" 4 hours ago Up 4 hours stress2 3de866c9da2f centos/stress "/bin/bash" 5 hours ago Up 4 hours stress1
 
@@ -239,7 +239,7 @@ cpu\_period=40000 cpu\_quota=100000表示在100ms为周期的情况中占用40%�
 
    CPU的时间会被平均分配，这是因为每个容器都会对cpu时间进行争抢但由于他们对cpu的争抢权是一样的，所以他们得到的cpu时间是一样的。有兴趣的同事可以自行去看一下`/sys/fs/cgroup/cpu/systemd/容器ID.scope/`下的cpu配置文件看看是否有什么变化。
 
-#### 磁盘IO配额的限制
+### 磁盘IO配额的限制
 
 **device-write-bps**
 
@@ -253,9 +253,9 @@ cpu\_period=40000 cpu\_quota=100000表示在100ms为周期的情况中占用40%�
 
    \[root@localhost cgroup\]\# docker ps
 
-   CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+   CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 
-   8e61e5784346        centos/stress       "/bin/bash"         6 seconds ago       Up 5 seconds                            stress1
+   8e61e5784346 centos/stress "/bin/bash" 6 seconds ago Up 5 seconds stress1
 
    \[root@localhost cgroup\]\# docker exec stress1 bash
 
@@ -267,9 +267,9 @@ cpu\_period=40000 cpu\_quota=100000表示在100ms为周期的情况中占用40%�
 
    \[root@localhost cgroup\]\# docker exec -it stress1 bash
 
-   \[root@8e61e5784346 /\]\# 
+   \[root@8e61e5784346 /\]\#
 
-   \[root@8e61e5784346 /\]\# 
+   \[root@8e61e5784346 /\]\#
 
    \[root@8e61e5784346 /\]\# time dd if=/dev/zero of=test.out bs=1M count=1024 oflag=direct
 

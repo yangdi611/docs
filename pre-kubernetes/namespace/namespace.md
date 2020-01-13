@@ -1,8 +1,8 @@
 # namespace
 
-### Namespace
+## Namespace
 
-#### Brief
+### Brief
 
 `Namespace` 是 Linux 内核提供的一个功能，可以实现系统资源的隔离，如：PID、User ID、Network 等。Linux 中的 chroot 命令可以将当前目录设置为根目录，使得用户的操作被限制在当前目录之下而不影响其他目录。
 
