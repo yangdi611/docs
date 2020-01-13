@@ -1,0 +1,8 @@
+# DaemonSets
+
+如果需要从所有节点收集监视数据或在所有节点上运行存储守护程序，则我们需要始终在所有节点上运行的特定类型的Pod。DaemonSet是使我们能够做到这一点的对象。它是多节点Kubernetes集群的关键控制器API资源。在集群中的每个节点上作为Pod运行的kube-proxy代理由DaemonSet管理。
+
+每当将节点添加到群集时，就会自动在其上创建来自给定DaemonSet的Pod。尽管它确保了自动化的过程，但DaemonSet的Pod由集群的默认Scheduler放置在节点上。当节点死亡或将其从群集中删除时，将对各个Pod进行垃圾收集。如果删除DaemonSet，则它创建的所有Pod也将被删除。
+
+DaemonSet资源的较新功能允许通过配置nodeSelector和节点亲和性（affinity）规则仅在特定节点上调度其Pod。与部署资源相似，DaemonSets支持滚动更新和回滚。
+
