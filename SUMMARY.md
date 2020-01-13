@@ -176,4 +176,6 @@
   * [Kong](afterk8s/ingress/kong.md)
 * [Grafana](afterk8s/grafana/README.md)
   * [Loki](afterk8s/grafana/loki.md)
+* [Rancher](afterk8s/rancher/README.md)
+  * [Rancher Air-Gapped installation](afterk8s/rancher/rancher-air-gapped-installation.md)
 
