@@ -174,4 +174,6 @@
 
 * [Ingress](afterk8s/ingress/README.md)
   * [Kong](afterk8s/ingress/kong.md)
+* [Grafana](afterk8s/grafana/README.md)
+  * [Loki](afterk8s/grafana/loki.md)
 
