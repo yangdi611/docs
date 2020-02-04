@@ -13,6 +13,8 @@
   * [container runtime](pre-kubernetes/runtime/container-runtime.md)
 * [etcd](pre-kubernetes/etcd/README.md)
   * [Kubernetes 1.16 离线安装 with 外置etcd](pre-kubernetes/etcd/kubernetes-1.16-li-xian-an-zhuang-with-wai-zhi-etcd.md)
+* [安全传输](pre-kubernetes/an-quan-chuan-shu/README.md)
+  * [TLS/SSL/HTTPS](pre-kubernetes/an-quan-chuan-shu/tls-ssl-https.md)
 
 ## Kubernetes架构101 <a id="kubernetes101"></a>
 
@@ -179,4 +181,7 @@
 * [Rancher](afterk8s/rancher/README.md)
   * [Nginx](afterk8s/rancher/untitled.md)
   * [Rancher Air-Gapped installation](afterk8s/rancher/rancher-air-gapped-installation.md)
+* [Forman](afterk8s/forman/README.md)
+  * [Foreman installation](afterk8s/forman/foreman-installation.md)
+  * [Untitled](afterk8s/forman/untitled-1.md)
 
